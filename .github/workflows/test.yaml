@@ -88,6 +88,6 @@ jobs:
     - name: Start Hugo server
       run: hugo server&
     - name: Wait for server
-      run: sleep 10
+      run: sleep 20
     - name: Run tests
       run: python ./ci/docs404.py
